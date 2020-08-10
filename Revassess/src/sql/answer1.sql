@@ -1,0 +1,1 @@
+select * from user_role,app_user where app_user.role_id = 3 and user_role.role_id =3;

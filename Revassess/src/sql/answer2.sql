@@ -1,0 +1,1 @@
+insert into app_user(username ,password ,first_name ,last_name ,role_id ) values ('adam', 'hello', 'adam', 'ngu',4);
