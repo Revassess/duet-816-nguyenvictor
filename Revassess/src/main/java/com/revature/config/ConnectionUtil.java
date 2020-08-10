@@ -1,6 +1,10 @@
 package com.revature.config;
 
+import org.postgresql.Driver;
+
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 /**
  * 
@@ -16,7 +20,7 @@ public class ConnectionUtil {
 	private static ConnectionUtil cu;
 	
 	// add your jdbc url
-	public static final String URL = "jdbc:postgresql://database-1.cbomrvqd9ddj.us-east-2.rds.amazonaws.com:5432/postgres";
+	public static final String URL = "jdbc:postgresql://database-1.cbomrvqd9ddj.us-east-2.rds.amazonaws.com:5432/revassessment";
 	// add your jdbc username
 	public static final String USERNAME = "victor_nguyen";
 	// add your jdbc password
@@ -25,10 +29,13 @@ public class ConnectionUtil {
 	public static final String TIER_3_PROCEDURE_NAME = "";
 	// name of the created sequence in tier 3
 	public static final String TIER_3_SEQUENCE_NAME = "increment_number";
+	//preload the drive class to manager
+
 
 	// implement this method to connect to the db and return the connection object
-	public Connection connect(){
-		return null;
+	public Connection connect() throws SQLException {
+
+		return DriverManager.getConnection(URL,USERNAME,PASSWORD);
 	}
 
 
