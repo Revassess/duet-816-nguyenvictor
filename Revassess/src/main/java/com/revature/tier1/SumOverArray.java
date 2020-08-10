@@ -5,13 +5,16 @@ public class SumOverArray {
 	public static int IterateAndSum(int[] arr) {
 
 		int sum = 0;
-		for(int i = 0; i < arr.length; i++)
-		{
+		try {
+			for (int i = 0; i < arr.length; i++) {
 
-            int temp = arr[i];
-            sum += temp;
+				int temp = arr[i];
+				sum += temp;
 
-        }
+			}
+		}catch (Exception e){
+
+		}
 		return sum;
 	}
 }
