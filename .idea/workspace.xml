@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cba4b8b-ed39-473b-bb0d-0512b7a75164" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/duet-816-nguyenvictor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,8 @@
       <updated>1597087535193</updated>
       <workItem from="1597087537414" duration="2515000" />
       <workItem from="1597090066551" duration="5000" />
-      <workItem from="1597090084164" duration="49000" />
+      <workItem from="1597090084164" duration="176000" />
+      <workItem from="1597090344373" duration="136000" />
     </task>
     <servers />
   </component>
